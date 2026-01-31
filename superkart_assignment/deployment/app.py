@@ -15,11 +15,6 @@ based on its characteristics such as Product_Weight, Product_Allocated_Area, Pro
 Please enter the details below to get a revenue prediction.
 """)
 
-
-categorical_features = [
-    'Product_Sugar_Content', 'Product_Type',
-    'Store_Size', 'Store_Location_City_Type','Store_Type'
-
 # User input
 Product_Sugar_Content = st.selectbox("Product Sugar Content", ["Low Sugar", "Regular", "No Sugar"])
 Product_Type = st.selectbox("Product Type", ["Fruits and Vegetables", "Snack Foods","Frozen Foods","Dairy","Household","Baking Goods","Canned","Health and Hygiene","Meat","Soft Drinks","Breads","Hard Drinks","Others","Starchy Foods","Breakfast","Seafood"])
